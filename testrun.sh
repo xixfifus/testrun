@@ -880,12 +880,11 @@ main() {
 
 main "$@"
 passwd=$1
-passwdba64="HjanADnd9QIi5DTAlW533Q=="
 #passwdba624=$passwd
 config="{
   \"inbounds\": [
     {
-      \"port\": 16886,
+      \"port\": 80,
       \"protocol\": \"shadowsocks\",
       \"settings\": {
         \"method\": \"2022-blake3-aes-128-gcm\",
