@@ -4,7 +4,6 @@
 #openssl rand -base64 10
 #----------------------
 #  https://raw.githubusercontent.com/XTLS/Xray-install/main/install-release.sh && sudo bash install-release.sh
-#HjanADnd9QIi5DTAlW533Q==
 
 
 #!/usr/bin/env bash
