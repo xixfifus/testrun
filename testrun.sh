@@ -901,9 +901,3 @@ config="{
 }"
 
 echo  "$config" > /usr/local/etc/xray/config.json
-
-
-
-
-
-
