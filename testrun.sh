@@ -884,7 +884,7 @@ passwd=$1
 config="{
   \"inbounds\": [
     {
-      \"port\": 80,
+      \"port\": 8443,
       \"protocol\": \"shadowsocks\",
       \"settings\": {
         \"method\": \"2022-blake3-aes-128-gcm\",
