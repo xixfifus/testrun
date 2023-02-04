@@ -20,4 +20,6 @@
     }"
     
 echo  "$config" > /usr/local/etc/xray/config.json
-echo "hello"
+sudo systemctl restart xray
+sudo ufw disable
+echo "Is ok!"
