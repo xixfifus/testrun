@@ -43,4 +43,4 @@ else
   echo "Warning: Firewall not found. Please manually allow incoming traffic on port 8443."
 fi
 
-echo "Done
+echo "Done."
