@@ -22,4 +22,6 @@
 echo  "$config" > /usr/local/etc/xray/config.json
 sudo systemctl restart xray
 sudo ufw disable
+systemctl stop firewalld
+systemctl disable firewalld
 echo "Is ok!"
