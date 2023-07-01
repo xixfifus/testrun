@@ -3,7 +3,7 @@
     config="{
              \"inbounds\": [
                 {
-                  \"port\": 2052, //监听端口
+                  \"port\": 8443, //监听端口
                   \"protocol\": "vless",
                   \"settings\": {
                     \"clients\": [
