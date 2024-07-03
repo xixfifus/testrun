@@ -6,7 +6,7 @@
           \"port\": 8443,
           \"protocol\": \"shadowsocks\",
           \"settings\": {
-            \"method\": \"2022-blake3-aes-128-gcm\",
+            \"method\": \"aes-128-gcm\",
             \"password\": "\"$passwd\"",
             \"network\": \"tcp,udp\"
           }
