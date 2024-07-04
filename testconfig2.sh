@@ -1,6 +1,7 @@
     passwd=$1
     vlpasswd=$2
     vlpath=$3
+    localip=$(curl -s https://ipinfo.io/ip)
     #passwdba624=$passwd
         config="{
         \"log\": {
@@ -45,6 +46,7 @@
             {
             \"tag\": \"16888\", 
             \"protocol\": \"freedom\",
+            \"sendThrough\": \"103.192.178.76\",
             \"settings\": {}
             }
         ],
