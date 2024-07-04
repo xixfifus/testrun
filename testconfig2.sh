@@ -46,7 +46,7 @@
             {
             \"tag\": \"16888\", 
             \"protocol\": \"freedom\",
-            \"sendThrough\": \"103.192.178.76\",
+            \"sendThrough\": "\"$localip\"",
             \"settings\": {}
             }
         ],
