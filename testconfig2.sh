@@ -13,6 +13,7 @@
             {
             \"tag\": \"8443\",
             \"port\": 8443,
+            \"listen\": \"127.0.0.1\",
             \"protocol\": \"shadowsocks\",
             \"settings\": {
                 \"method\": \"aes-128-gcm\",
@@ -22,8 +23,8 @@
             },
             {
             \"tag\": \"16888\",
-            \"listen\": \"127.0.0.1\",
             \"port\": 16888,
+            \"listen\": \"127.0.0.1\",
             \"protocol\": \"VLESS\",
             \"settings\": {
                 \"clients\": [
